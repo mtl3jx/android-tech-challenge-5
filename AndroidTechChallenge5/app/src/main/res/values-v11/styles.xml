@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- DARK THEME-->
+    <style name="DarkTheme" parent="android:Theme.Holo">
+        <!-- viewgroup parent -->
+        <item name="backgroundContent">@color/darkBackgroundNotPressed</item>
+
+        <!-- text views -->
+        <item name="android:textColorPrimary">@color/darkPrimary</item>
+        <item name="textSizePrimary">@dimen/textSizePrimary</item>
+        <item name="android:textColorSecondary">@color/darkSecondary</item>
+        <item name="textSizeSecondary">@dimen/textSizeSecondary</item>
+        <item name="android:textColorTertiary">@color/darkTertiary</item>
+        <item name="textSizeTertiary">@dimen/textSizeTertiary</item>
+
+        <!-- button -->
+        <item name="android:textColor">@color/darkButton</item>
+        <item name="textSizeButton">@dimen/textSizeButton</item>
+        <item name="iconButton">@drawable/ic_launcher_android</item>
+        <item name="backgroundButton">@drawable/dark_button</item>
+
+        <!-- toolbar -->
+        <item name="android:actionMenuTextColor">@color/darkButton</item>
+        <item name="iconToolbar">@drawable/ic_launcher_android</item>
+        <item name="backgroundToolbar">@color/darkBackgroundNotPressed</item>
+
+        <!-- toggle button -->
+        <item name="android:drawable">@drawable/ic_action_toggle_theme_dark</item>
+        <item name="backgroundToggle">@color/darkBackgroundNotPressed</item>
+    </style>
+
+    <!-- LIGHT THEME -->
+    <style name="LightTheme" parent="android:Theme.Holo.Light" >
+        <!-- viewgroup parent -->
+        <item name="backgroundContent">@color/lightBackgroundNotPressed</item>
+
+        <!-- text views -->
+        <item name="android:textColorPrimary">@color/lightPrimary</item>
+        <item name="textSizePrimary">@dimen/textSizePrimary</item>
+        <item name="android:textColorSecondary">@color/lightSecondary</item>
+        <item name="textSizeSecondary">@dimen/textSizeSecondary</item>
+        <item name="android:textColorTertiary">@color/lightTertiary</item>
+        <item name="textSizeTertiary">@dimen/textSizeTertiary</item>
+
+        <!-- button -->
+        <item name="android:textColor">@color/lightButton</item>
+        <item name="textSizeButton">@dimen/textSizeButton</item>
+        <item name="iconButton">@drawable/ic_launcher_android</item>
+        <item name="backgroundButton">@drawable/light_button</item>
+
+        <!-- toolbar -->
+        <item name="android:actionMenuTextColor">@color/lightButton</item>
+        <item name="iconToolbar">@drawable/ic_launcher_android</item>
+        <item name="backgroundToolbar">@color/lightBackgroundNotPressed</item>
+
+        <!-- toggle button -->
+        <item name="android:drawable">@drawable/ic_action_toggle_theme_light</item>
+        <item name="backgroundToggle">@color/lightBackgroundNotPressed</item>
+    </style>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DARK -->
+    <color name="darkPrimary">#45d0ff</color>
+    <color name="darkSecondary">#75DDFF</color>
+    <color name="darkTertiary">#BAEEFF</color>
+    <color name="darkButton">#FFFFFF</color>
+    <color name="darkBackgroundNotPressed">#000000</color>
+
+    <!-- LIGHT -->
+    <color name="lightPrimary">#005C12</color>
+    <color name="lightSecondary">#00821A</color>
+    <color name="lightTertiary">#00A321</color>
+    <color name="lightButton">#000000</color>
+    <color name="lightBackgroundNotPressed">#FFFFFF</color>
+
+</resources>

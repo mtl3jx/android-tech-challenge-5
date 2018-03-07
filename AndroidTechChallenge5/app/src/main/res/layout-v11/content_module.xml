@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/moduleContent"
+    android:background="?backgroundContent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context="captechventures.com.techchallenge5.MainActivity"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView1"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="?textSizePrimary"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView2"
+            android:textColor="?android:textColorSecondary"
+            android:textSize="?textSizeSecondary"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView3"
+            android:textColor="?android:textColorTertiary"
+            android:textSize="?textSizeTertiary"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button"
+            android:textColor="?android:textColor"
+            android:textSize="?textSizeButton"
+            android:drawableLeft="?iconButton"
+            android:background="?backgroundButton"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizePrimary">22sp</dimen>
+    <dimen name="textSizeSecondary">20sp</dimen>
+    <dimen name="textSizeTertiary">18sp</dimen>
+    <dimen name="textSizeButton">18sp</dimen>
+
+    <dimen name="modulePadding">40dp</dimen>
+</resources>

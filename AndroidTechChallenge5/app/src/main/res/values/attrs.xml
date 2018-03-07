@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dimen -->
+    <attr name="textSizePrimary" format="reference|dimension" />
+    <attr name="textSizeSecondary" format="reference|dimension" />
+    <attr name="textSizeTertiary" format="reference|dimension" />
+    <attr name="textSizeButton" format="reference|dimension" />
+
+    <!-- color -->
+    <attr name="backgroundContent" format="reference|color" />
+    <attr name="textColorToolbar" format="reference|color" />
+    <attr name="backgroundToolbar" format="reference|color" />
+    <attr name="backgroundToggle" format="reference|color" />
+
+    <!-- drawable -->
+    <attr name="backgroundButton" format="reference" />
+    <attr name="iconToolbar" format="reference" />
+    <attr name="iconButton" format="reference" />
+</resources>

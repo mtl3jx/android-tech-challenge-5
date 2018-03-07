@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidTechChallenge5</string>
+
+    <!-- ACTIVITY TEXT -->
+    <string name="textView1">customTextStylePrimary</string>
+    <string name="textView2">customTextStyleSecondary</string>
+    <string name="textView3">customTextStyleTertiary</string>
+    <string name="button">customButtonStyle</string>
+
+    <!-- STYLE TOGGLING -->
+    <string name="button_toggle">Toggle Theme</string>
+
+</resources>

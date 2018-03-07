@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/toggleButton"
+        android:icon="?android:drawable"
+        android:title="@string/button_toggle"
+        android:visible="true"
+        android:showAsAction="ifRoom|withText" />
+</menu>
